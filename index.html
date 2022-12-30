@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="sourses/img/hero-carousel/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="sourses/img/hero-carousel/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="sourses/img/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="sourses/img/hero-carousel/hero-carousel-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item"  data-bs-interval="3000">
+            <img src="sourses/img/hero-carousel/hero-carousel-5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- layout -->
+      <div class="layout">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">UpConstruction</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link activee" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">
+                    <!-- <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                      Dropdown link <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li class="dropdown-item anotherDrop" >Another action <i class="fa-solid fa-angle-down"></i></li>
+                        <ul class="drop">
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                        </ul>
+
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="header">
+            <div class="h01">Welcome to</div>
+            <div class="h02">UpConstruction</div>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button type="button" class="btn btn-outline-warning"><a href="#about">Get Started</a></button> 
+        </div>
+      </div>
+    <!-- end header -->
+    <!-- heading -->
+    <div class="about-section" id="about">
+      <div class="heading">
+        <h2>About</h2>
+        <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+      </div>    
+      <!-- heading -->
+
+      <!-- about section -->
+      <div class="container text-center about">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-about" src="sourses/img/alt-services.jpg" alt="" width="100%">
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-8 col-sm-6 heada">
+                <h2>Enim quis est voluptatibus aliquid consequatur fugiat</h2>
+                <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 col-sm-6 sec">
+                <div class="icona"><i class="fa-regular fa-clipboard"></i></div>
+                <div class="cont">
+                  <h2>lorem ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus ullam ipsum possimus, perferendis exercitationem. Possimus reiciendis ipsum repudiandae et ab ex.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 col-sm-6 sec">
+                <div class="icona"><i class="fa-solid fa-calendar-check"></i></div>
+                <div class="cont">
+                  <h2>lorem ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus ullam ipsum possimus, perferendis exercitationem. Possimus reiciendis ipsum repudiandae et ab ex.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 col-sm-6 sec">
+                <div class="icona"><i class="fa-solid fa-train"></i></div>
+                <div class="cont">
+                  <h2>lorem ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus ullam ipsum possimus, perferendis exercitationem. Possimus reiciendis ipsum repudiandae et ab ex.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 col-sm-6 sec">
+                <div class="icona"><i class="fa-regular fa-building"></i></div>
+                <div class="cont">
+                  <h2>lorem ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus ullam ipsum possimus, perferendis exercitationem. Possimus reiciendis ipsum repudiandae et ab ex.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about section -->
+
+    <div class="construct-section">
+      <div class="heading">
+        <h2> Constructions</h2>
+        <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sedi</p>
+
+      </div>    
+      <!-- heading -->
+      <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row g-0 card-pic">
+                <div class="col-md-5">
+                  <img src="sourses/img/constructions-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col">
+                  <div class="card-body">
+                    <h5 class="card-title">Eligendi omnis sunt veritatis.</h5>
+                    <p class="card-text">Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col"><div class="card mb-3">
+            <div class="row g-0 card-pic">
+              <div class="col-md-5">
+                <img src="sourses/img/constructions-2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="card-title">Possimus ut sed velit assumenda</h5>
+                  <p class="card-text">Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos.</p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+          <div class="col"><div class="card mb-3" >
+            <div class="row g-0 card-pic">
+              <div class="col-md-5">
+                <img src="sourses/img/constructions-3.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="card-title">Error beatae dolor inventore aut</h5>
+                  <p class="card-text">Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+          <div class="col"><div class="card mb-3">
+            <div class="row g-0 card-pic">
+              <div class="col-md-5">
+                <img src="sourses/img/constructions-4.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="card-title">Expedita voluptas ut ut nesciunt</h5>
+                  <p class="card-text">Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+       </div>
+
+    <!-- services section -->
+    <div class="serv-section" id="services">
+          <!-- heading -->
+      <div class="heading">
+        <h2>Services</h2>
+        <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+      </div>    
+      <!-- heading -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="cardIcon">
+           <div class="ic"> <i class="fa-solid fa-shapes"></i> </div>
+           <h4>Nesciunt Mete</h4>
+           <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+          <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="cardIcon">
+            <div class="ic"> <i class="fa-solid fa-arrow-up-from-ground-water"></i></div>
+            <h4>Eosle Commodi</h4>
+            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+           <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+           </div>
+        </div>
+        <div class="col">
+          <div class="cardIcon">
+            <div class="ic"> <i class="fa-solid fa-compass-drafting"></i> </div>
+            <h4>Ledo Markt</h4>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+           <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="cardIcon">
+           <div class="ic"> <i class="fa-solid fa-arrow-up-right-dots"></i> </div>
+           <h4>Nesciunt Mete</h4>
+           <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+          <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="cardIcon">
+            <div class="ic"><i class="fa-regular fa-building"></i></div>
+            <h4>Eosle Commodi</h4>
+            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+           <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+           </div>
+        </div>
+        <div class="col">
+          <div class="cardIcon">
+            <div class="ic"> <i class="fa-solid fa-arrow-up-from-ground-water"></i></i> </div>
+            <h4>Ledo Markt</h4>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+           <a class="lnk" href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gallery section -->
+    <div class="gallery-section">
+      <!-- heading -->
+  <div class="heading" id="projects">
+    <h2>Our Projects</h2>
+    <p>onsequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+  </div>    
+  <!-- heading -->
+  <div class="filters" id="filter">
+    <ul>
+        <li class="list activeted" data-filter="all">All</li>
+        <li class="list" data-filter="Remodeling">Remodeling</li>
+        <li class="list" data-filter="Constructions">Constructions</li>
+        <li class="list" data-filter="Repairs">Repairs</li>
+        <li class="list" data-filter="Design">Design</li>
+    </ul>
+  </div>
+  
+  <div class="card-gallery">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col container-image" data-item="Design">
+          <div class="card">
+            <img src="sourses/img/projects/design-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image"  data-item="Design">
+          <div class="card">
+            <img src="sourses/img/projects/design-2.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image" data-item="Design">
+          <div class="card">
+            <img src="sourses/img/projects/design-3.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col container-image" data-item="Constructions">
+          <div class="card">
+            <img src="sourses/img/projects/construction-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image" data-item="Constructions">
+          <div class="card">
+            <img src="sourses/img/projects/construction-3.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image" data-item="Constructions">
+          <div class="card">
+            <img src="sourses/img/projects/construction-2.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col container-image" data-item="Remodeling">
+          <div class="card">
+            <img src="sourses/img/projects/remodeling-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image" data-item="Remodeling">
+          <div class="card">
+            <img src="sourses/img/projects/remodeling-2.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+        <div class="col container-image" data-item="Remodeling">
+          <div class="card">
+            <img src="sourses/img/projects/remodeling-3.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col container-image" data-item="Repairs">
+          <div class="card">
+            <img src="sourses/img/projects/repairs-1.jpg" class="card-img-top" alt="...">
+            <div class="overlay">
+              <div class="icons">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <i class="fa-solid fa-link"></i>
+              </div>
+              <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+            </div>
+          </div>
+        </div>
+          <div class="col container-image" data-item="Repairs">
+            <div class="card">
+              <img src="sourses/img/projects/repairs-2.jpg" class="card-img-top" alt="...">
+              <div class="overlay">
+                <div class="icons">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  <i class="fa-solid fa-link"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+              </div>
+            </div>
+          </div>
+          <div class="col container-image" data-item="Repairs">
+            <div class="card">
+              <img src="sourses/img/projects/repairs-3.jpg" class="card-img-top" alt="...">
+              <div class="overlay">
+                <div class="icons">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i>
+                  <i class="fa-solid fa-link"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, consectetur adipisicing </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+    <!-- gallery section -->
+    <!-- contact section -->
+    <div class="Contact-section" id="contact">
+      <!-- heading -->
+  <div class="heading">
+    <h2>Contact Us</h2>
+    <p>onsequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p>
+  </div>   
+  <div class="container">
+    <div class="row contact-form">
+      <div class="col-7">
+        <!-- <div class="content">
+          <h2>Minus hic non reiciendis ea possimus at quia.</h2>
+          <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta. </p>
+          <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+        </div> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79206.15386619246!2d-0.07461736714971602!3d51.65631532822551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487614c908fcc35b%3A0x5d521bb3eb9734f1!2z2YjYp9iq2YHZiNix2K_YjCDYp9mE2YXZhdmE2YPYqSDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2seg!4v1672302730816!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-5 form">
+        <div class="row">
+          <div class="col form">
+            <div class="label-form">
+              <h5>Leave a message</h5>
+              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+            </div>
+            <input type="text" class="form-control" placeholder="Name" >
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="text" class="form-control" placeholder="Phone">
+            <textarea name="" id="" cols="30" rows="7"class="form-control" placeholder="Message"></textarea>
+            <button type="button" class="btn-send">Send</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <!--end contact section -->
+
+    <!-- our team section -->
+    <div class="ourTeam-section">
+      <!-- heading -->
+  <div class="heading">
+    <h2>Our team</h2>
+    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+  </div>   
+  <div class="container text-center teams">
+    <div class="row">
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-1.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">Walter White</h5>
+          <p class="card-text-cont"><medium class="text-muted">Chief Executive Officer</medium></p>
+          <p class="card-text-cont">Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+        </div>
+      </div>
+
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-2.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">Sarah Jhonson</h5>
+          <p class="card-text-cont"><medium class="text-muted">Product Manager</medium></p>
+          <p class="card-text-cont">Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+        </div>
+      </div>
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-3.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">William Anderson</h5>
+          <p class="card-text-cont"><medium class="text-muted">CTO</medium></p>
+          <p class="card-text-cont">Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-4.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">Amanda Jepson</h5>
+          <p class="card-text-cont"><medium class="text-muted">Accountant</medium></p>
+          <p class="card-text-cont">Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+        </div>
+      </div>
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-5.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">Brian Doe</h5>
+          <p class="card-text-cont"><medium class="text-muted">Marketing</medium></p>
+          <p class="card-text-cont">Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+        </div>
+      </div>
+      <div class="col container-image">
+        <div class="card">
+          <img src="sourses/img/team/team-6.jpg" class="card-img-team" alt="...">
+          <div class="overlay-team">
+            <div class="icons">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card-bod">
+          <h5 class="head">Josepha Palas</h5>
+          <p class="card-text-cont"><medium class="text-muted">Operation</medium></p>
+          <p class="card-text-cont">Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+<!-- Footer -->
+<footer>
+ <div class="foot-container">
+  <div class="head-footer">
+    <h3>NosheyConstruction</h3>
+    <p class="address">A108 Adam Street
+      NY 535022, USA</p>
+      <p class="info"> Phone: +1 5589 55488 55</p>
+      <p class="info"> Email: info@example.com</p>
+      <div class="icons-links">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+  </div>
+  <div class="links">
+    <div class="links1">
+      <h6>Useful Links</h6>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Constructions</a>
+      <a href="">Contact Us</a>
+    </div>
+    <div class="links1">
+      <h6>Our Services</h6>
+      <a href="">Web Design</a>
+      <a href="">Web Development</a>
+      <a href="">Product Mangment</a>
+      <a href="">Marketing</a>
+      <a href="">Graphic Design</a>
+    </div>
+    <div class="links1">
+      <h6>Hic solutasetp</h6>
+      <a href="">Molestiae accusamus iure</a>
+      <a href="">Excepturi dignissimos</a>
+      <a href="">Suscipit distinctio</a>
+      <a href="">Dilecta</a>
+      <a href="">Sit quas consectetur</a>
+    </div>
+    <div class="links1">
+      <h6>Nobis illum</h6>
+      <a href="">Ipsam</a>
+      <a href="">Laudantium dolorum</a>
+      <a href="">Dinera</a>
+      <a href="">Trodelas</a>
+      <a href="">Flexo</a>
+    </div>
+  </div>
+ </div>
+ <div class="footpra">
+<p><i class="fa-regular fa-copyright"></i> Copyright <span>NosheyConstruction</span> . All Rights Reserved </p>
+<div>Designed by <span>Yasmeen Abotalb</span> </div>
+ </div>
+</footer>
+<!-- Footer -->
+
+
+    <!-- go top btn -->
+    <div class="go-top"><i class="fas fa-arrow-up"></i></div>
+    <!-- go top btn -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
